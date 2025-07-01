@@ -25,8 +25,8 @@ export default function ExamplesPage() {
             <div className="space-y-6 text-lg leading-relaxed max-w-4xl">
                 <p>
                     Responsiveness and accessibility extends past just scaling
-                    UI up and down – it's about rethinking hierarchy, flow, and
-                    interaction patterns.
+                    UI up and down - it&apos;s about rethinking hierarchy, flow,
+                    and interaction patterns.
                 </p>
 
                 {/* Interactive Responsive Example */}
@@ -104,7 +104,7 @@ export default function ExamplesPage() {
                 </div>
 
                 {/* Interactive Accessibility Example */}
-                <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border">
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border">
                     <h3 className="font-semibold mb-4">
                         Try This: Accessible Button
                     </h3>
@@ -120,8 +120,8 @@ export default function ExamplesPage() {
                         className={`px-6 py-3 rounded-lg font-semibold transition-all duration-150 active:scale-95 
               ${
                   buttonPressed
-                      ? "bg-blue-700 text-white transform scale-95 shadow-inner"
-                      : "bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl"
+                      ? "bg-purple-700 text-white transform scale-95 shadow-inner"
+                      : "bg-purple-600 text-white hover:bg-purple-700 shadow-lg hover:shadow-xl"
               }`}
                         aria-label="Example accessible button with visual and haptic feedback"
                     >

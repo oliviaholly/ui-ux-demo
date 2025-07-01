@@ -18,7 +18,7 @@ export default function HCIPage() {
                     </h3>
                     <p className="text-indigo-700 dark:text-indigo-300">
                         To reimagine how to make our digital experiences smooth,
-                        intuitive, and enjoyable – through gestures, real-world
+                        intuitive, and enjoyable - through gestures, real-world
                         immersion, and gamification.{" "}
                         <strong>Empathy is at the heart of HCI</strong>.
                     </p>
@@ -84,16 +84,16 @@ export default function HCIPage() {
                         HCI principles reflect empathy in action. By
                         prioritizing responsiveness and accessible design,
                         technology works for everyone. Figma describes HCI as an
-                        avenue to "transform static designs into memorable
-                        interactions."
+                        avenue to &quot;transform static designs into memorable
+                        interactions.&quot;
                     </p>
                 </div>
 
-                <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border-l-4 border-blue-500">
-                    <h3 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border-l-4 border-purple-500">
+                    <h3 className="font-semibold text-purple-800 dark:text-purple-200 mb-2">
                         The Future of HCI
                     </h3>
-                    <p className="text-blue-700 dark:text-blue-300">
+                    <p className="text-purple-700 dark:text-purple-300">
                         HCI continues to bridge the interaction between humans
                         and technology, making it more fun, intuitive, and
                         accessible. This improves user experiences and creates

@@ -74,8 +74,8 @@ export default function AccessibilityPage() {
                     </ul>
                 </div>
 
-                <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border-l-4 border-blue-500">
-                    <p className="font-semibold text-blue-800 dark:text-blue-200">
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg border-l-4 border-purple-500">
+                    <p className="font-semibold text-purple-800 dark:text-purple-200">
                         Accessibility overlaps heavily with responsive UI. A
                         responsive design that adjusts to zoom levels, works
                         with screen readers, and maintains clarity across screen

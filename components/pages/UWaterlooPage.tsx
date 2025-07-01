@@ -2,99 +2,122 @@ export default function UWaterlooPage() {
     return (
         <>
             <h1 className="text-4xl font-bold text-center mb-6">
-                UWaterloo & HCI
+                UWaterloo & Accessible Design
             </h1>
             <div className="space-y-6 text-lg leading-relaxed max-w-4xl">
-                <p className="text-center text-xl">
-                    For software developers at UWaterloo wanting to learn how to
-                    develop empathetically, the HCI specialization is an
-                    excellent learning path.
+                <p>
+                    The University of Waterloo continues to prioritize
+                    accessible and responsive design across its digital
+                    platforms. As a research-focused institution, accessibility
+                    is both an educational mission and a practical commitment.
                 </p>
 
-                <div className="bg-yellow-50 dark:bg-yellow-900/20 p-6 rounded-lg border border-yellow-200 dark:border-yellow-700">
-                    <h3 className="font-bold text-yellow-800 dark:text-yellow-200 mb-4 text-xl">
-                        🎓 HCI Specialization
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border-l-4 border-purple-500">
+                    <h3 className="font-semibold text-purple-800 dark:text-purple-200 mb-2">
+                        Committed to Excellence
                     </h3>
-                    <p className="text-yellow-700 dark:text-yellow-300 mb-4">
-                        The specialization mandates courses on user interfaces
-                        and user experiences, which help developers learn the
-                        importance and methods of improving UI/UX,
-                        accessibility, and responsiveness.
+                    <p className="text-purple-700 dark:text-purple-300">
+                        UWaterloo adheres to <strong>WCAG 2.1 standards</strong>{" "}
+                        across its websites, ensuring compatibility with screen
+                        readers and keyboard navigation. Their{" "}
+                        <a
+                            href="https://uwaterloo.ca/web-resources/accessibility/"
+                            className="text-blue-600 hover:text-blue-800 underline"
+                        >
+                            Web Accessibility guidelines
+                        </a>{" "}
+                        provide resources for faculty and staff.
                     </p>
-                    <a
-                        href="https://ugradcalendar.uwaterloo.ca/page/ENG-Computer-Engineering-Specializations"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 hover:shadow-lg"
-                    >
-                        Learn About HCI Specialization →
-                    </a>
                 </div>
 
-                <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border border-blue-200 dark:border-blue-700">
-                    <h3 className="font-bold text-blue-800 dark:text-blue-200 mb-4 text-xl">
-                        🔬 HCI Research Lab
+                <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+                    <h3 className="font-semibold mb-4">
+                        University Tools & Resources:
                     </h3>
-                    <p className="text-blue-700 dark:text-blue-300 mb-4">
-                        UWaterloo's Human-Computer Interaction lab conducts
-                        cutting-edge research in accessibility, user experience
-                        design, and innovative interaction methods.
-                    </p>
-                    <a
-                        href="https://hci.uwaterloo.ca/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 hover:shadow-lg"
-                    >
-                        Visit HCI Lab →
-                    </a>
-                </div>
+                    <div className="grid md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                            <div className="font-semibold text-purple-700 dark:text-purple-300">
+                                Student Success Services
+                            </div>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">
+                                AccessAbility Services for alternative testing,
+                                note-taking, and more
+                            </p>
 
-                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border border-purple-200 dark:border-purple-700">
-                    <h3 className="font-bold text-purple-800 dark:text-purple-200 mb-4 text-xl">
-                        📚 Related Courses
-                    </h3>
-                    <div className="grid md:grid-cols-2 gap-4 text-purple-700 dark:text-purple-300">
-                        <div>
-                            <h4 className="font-semibold mb-2">
-                                Core HCI Courses:
-                            </h4>
-                            <ul className="list-disc list-inside space-y-1 text-sm">
-                                <li>CS 349 - User Interfaces</li>
-                                <li>CS 466 - Algorithm Design</li>
-                                <li>CS 486 - Artificial Intelligence</li>
-                            </ul>
+                            <div className="font-semibold text-purple-700 dark:text-purple-300">
+                                Campus Technology
+                            </div>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">
+                                LEARN (D2L) with accessibility features and
+                                mobile-optimized interfaces
+                            </p>
                         </div>
-                        <div>
-                            <h4 className="font-semibold mb-2">Design & UX:</h4>
-                            <ul className="list-disc list-inside space-y-1 text-sm">
-                                <li>FINE 112 - Visual Culture</li>
-                                <li>PSYCH 207 - Cognitive Psychology</li>
-                                <li>
-                                    SYDE 543 - Design of Interactive Systems
-                                </li>
-                            </ul>
+                        <div className="space-y-2">
+                            <div className="font-semibold text-purple-700 dark:text-purple-300">
+                                Digital Infrastructure
+                            </div>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">
+                                Responsive design across Quest, UWaterloo
+                                websites, and campus apps
+                            </p>
+
+                            <div className="font-semibold text-purple-700 dark:text-purple-300">
+                                Research & Development
+                            </div>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">
+                                Programs like the HCI Lab and CS research into
+                                inclusive design
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-lg border-l-4 border-green-500">
-                    <h3 className="font-semibold text-green-800 dark:text-green-200 mb-2">
-                        Why Study HCI at UWaterloo?
+                <div className="bg-indigo-50 dark:bg-indigo-900/20 p-6 rounded-lg">
+                    <h3 className="font-semibold text-indigo-800 dark:text-indigo-200 mb-2">
+                        Academic Programs
                     </h3>
-                    <p className="text-green-700 dark:text-green-300">
-                        Learn to bridge the gap between technical implementation
-                        and human needs. Develop empathy-driven design skills
-                        that make technology accessible and enjoyable for
-                        everyone.
+                    <p className="text-indigo-700 dark:text-indigo-300 mb-4">
+                        UWaterloo offers courses and research opportunities in
+                        HCI, accessibility, and user experience design across
+                        multiple faculties.
+                    </p>
+                    <div className="bg-white dark:bg-indigo-950/50 p-4 rounded border">
+                        <p className="text-sm font-semibold text-indigo-600 dark:text-indigo-400">
+                            Example Course: CS 446 (Software Architecture)
+                        </p>
+                        <p className="text-sm text-indigo-600 dark:text-indigo-400">
+                            Covers responsive design patterns, user interface
+                            principles, and accessibility considerations in
+                            software development.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg">
+                    <h3 className="font-semibold text-purple-800 dark:text-purple-200 mb-2">
+                        Leading by Example
+                    </h3>
+                    <p className="text-purple-700 dark:text-purple-300">
+                        As a top Canadian research university, UWaterloo sets
+                        standards for how educational institutions should
+                        approach digital accessibility. By investing in
+                        responsive design and inclusive technology, the
+                        university demonstrates that accessibility isn&apos;t an
+                        afterthought - it&apos;s fundamental to good design.
                     </p>
                 </div>
 
-                <div className="text-center bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
-                    <p className="text-gray-600 dark:text-gray-400 italic">
-                        "Human-Computer Interaction principles reflect empathy
-                        in action, and by prioritizing responsiveness and
-                        accessible design, technology works for everyone."
+                <div className="bg-yellow-50 dark:bg-yellow-900/20 p-6 rounded-lg border-l-4 border-yellow-500">
+                    <h3 className="font-semibold text-yellow-800 dark:text-yellow-200 mb-2">
+                        Student Impact
+                    </h3>
+                    <p className="text-yellow-700 dark:text-yellow-300">
+                        These efforts directly benefit thousands of students,
+                        faculty, and staff who rely on digital tools daily.
+                        Whether accessing course materials on mobile devices or
+                        using assistive technologies, UWaterloo&apos;s
+                        commitment to accessible design ensures everyone can
+                        participate fully in university life.
                     </p>
                 </div>
             </div>

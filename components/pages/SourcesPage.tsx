@@ -1,148 +1,121 @@
 export default function SourcesPage() {
     return (
         <>
-            <h1 className="text-4xl font-bold text-center mb-6">Works Cited</h1>
-            <div className="space-y-4 text-lg leading-relaxed max-w-4xl">
-                <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg border">
-                    <div className="space-y-4">
-                        <div className="border-l-4 border-blue-500 pl-4 py-2">
-                            <p className="text-sm">
-                                <strong>Figma.</strong> "What is Human-Computer
-                                Interaction (HCI)?" <em>Figma</em>, n.d.,
-                                <a
-                                    href="https://www.figma.com/resource-library/human-computer-interaction/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 ml-1 underline"
-                                >
-                                    https://www.figma.com/resource-library/human-computer-interaction/
-                                </a>
-                                . Accessed 29 Jun 2025.
-                            </p>
-                        </div>
-
-                        <div className="border-l-4 border-green-500 pl-4 py-2">
-                            <p className="text-sm">
-                                <strong>Marcotte, E.</strong> "Responsive Web
-                                Design." <em>Ethan Marcotte</em>, 25 May 2014,
-                                <a
-                                    href="https://ethanmarcotte.com/books/responsive-web-design/full/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 ml-1 underline"
-                                >
-                                    https://ethanmarcotte.com/books/responsive-web-design/full/
-                                </a>
-                                . Accessed 30 Jun 2025.
-                            </p>
-                        </div>
-
-                        <div className="border-l-4 border-purple-500 pl-4 py-2">
-                            <p className="text-sm">
-                                <strong>
-                                    Selejan, O., Muresanu, D.F., Popa, L.,
-                                    Muresanu-Oloeriu, I., Iudean, D., Buzoianu,
-                                    A., & Suciu, S.
-                                </strong>{" "}
-                                "Credibility Judgments in Web Page Design - a
-                                Brief Review."{" "}
-                                <em>National Library of Medicine</em>, 2016,
-                                <a
-                                    href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4863498/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 ml-1 underline"
-                                >
-                                    https://pmc.ncbi.nlm.nih.gov/articles/PMC4863498/
-                                </a>
-                                . Accessed 30 Jun 2025.
-                            </p>
-                        </div>
-
-                        <div className="border-l-4 border-orange-500 pl-4 py-2">
-                            <p className="text-sm">
-                                <strong>StatCounter.</strong> "Mobile and Tablet
-                                Internet Usage Exceeds Desktop for First Time
-                                Worldwide." <em>StatCounter</em>, 1 Nov 2016,
-                                <a
-                                    href="https://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 ml-1 underline"
-                                >
-                                    https://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide/
-                                </a>
-                                . Accessed 30 Jun 2025.
-                            </p>
-                        </div>
-
-                        <div className="border-l-4 border-red-500 pl-4 py-2">
-                            <p className="text-sm">
-                                <strong>
-                                    Web Accessibility in Mind (WebAIM).
-                                </strong>{" "}
-                                "The WebAIM Million."{" "}
-                                <em>Web Accessibility in Mind</em>, 31 Mar 2025,
-                                <a
-                                    href="https://webaim.org/projects/million/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 ml-1 underline"
-                                >
-                                    https://webaim.org/projects/million/
-                                </a>
-                                . Accessed 30 Jun 2025.
-                            </p>
-                        </div>
-
-                        <div className="border-l-4 border-indigo-500 pl-4 py-2">
-                            <p className="text-sm">
-                                <strong>
-                                    World Wide Web Consortium (W3C).
-                                </strong>{" "}
-                                "Web Content Accessibility Guidelines (WCAG)
-                                2.1." <em>W3C Recommendation</em>, 5 Jun 2018,
-                                updated 06 May 2025,
-                                <a
-                                    href="https://www.w3.org/TR/2025/REC-WCAG21-20250506/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 ml-1 underline"
-                                >
-                                    https://www.w3.org/TR/2025/REC-WCAG21-20250506/
-                                </a>
-                                . Accessed 30 Jun 2025.
-                            </p>
-                        </div>
-
-                        <div className="border-l-4 border-yellow-500 pl-4 py-2">
-                            <p className="text-sm">
-                                <strong>Wroblewski, L.</strong>{" "}
-                                <em>Mobile First</em>. A Book Apart, 2011,
-                                <a
-                                    href="https://mobile-first.abookapart.com/00-publishers-note/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 hover:text-blue-800 ml-1 underline"
-                                >
-                                    https://mobile-first.abookapart.com/00-publishers-note/
-                                </a>
-                                . Accessed 30 Jun 2025.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border-l-4 border-blue-500">
-                    <p className="text-blue-800 dark:text-blue-200 text-center font-semibold">
-                        📚 All sources accessed between June-July 2025
+            <h1 className="text-4xl font-bold text-center mb-6">Sources</h1>
+            <div className="space-y-6 text-lg leading-relaxed max-w-4xl">
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border-l-4 border-purple-500">
+                    <p className="text-purple-700 dark:text-purple-300">
+                        This demo was created to illustrate the principles of
+                        responsive UI and accessibility design. The sources
+                        below informed the content and examples presented.
                     </p>
                 </div>
 
-                <div className="text-center text-gray-600 dark:text-gray-400 text-sm mt-8">
-                    <p>
-                        This demo was created to showcase responsive UI and
-                        accessibility principles in action.
+                <div className="space-y-4">
+                    <h3 className="font-semibold text-xl">Academic Sources</h3>
+
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
+                        <p className="font-semibold mb-2">
+                            Marcotte, E. (2010). Responsive Web Design.
+                        </p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                            A List Apart. The foundational article that
+                            introduced the concept of responsive web design.
+                        </p>
+                        <a
+                            href="https://alistapart.com/article/responsive-web-design/"
+                            className="text-blue-600 hover:text-blue-800 underline text-sm"
+                        >
+                            View Article →
+                        </a>
+                    </div>
+
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
+                        <p className="font-semibold mb-2">
+                            Web Content Accessibility Guidelines (WCAG) 2.1
+                        </p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                            W3C. International standards for web accessibility.
+                        </p>
+                        <a
+                            href="https://www.w3.org/WAI/WCAG21/quickref/"
+                            className="text-blue-600 hover:text-blue-800 underline text-sm"
+                        >
+                            View Standards →
+                        </a>
+                    </div>
+
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
+                        <p className="font-semibold mb-2">
+                            University of Waterloo Web Resources
+                        </p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Guidelines and resources for accessible web design
+                            at UWaterloo.
+                        </p>
+                        <a
+                            href="https://uwaterloo.ca/web-resources/accessibility/"
+                            className="text-blue-600 hover:text-blue-800 underline text-sm"
+                        >
+                            View Guidelines →
+                        </a>
+                    </div>
+                </div>
+
+                <div className="space-y-4">
+                    <h3 className="font-semibold text-xl">Design Resources</h3>
+
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
+                        <p className="font-semibold mb-2">Tailwind CSS</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Utility-first CSS framework used for responsive
+                            design in this demo.
+                        </p>
+                        <a
+                            href="https://tailwindcss.com/"
+                            className="text-blue-600 hover:text-blue-800 underline text-sm"
+                        >
+                            View Framework →
+                        </a>
+                    </div>
+
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
+                        <p className="font-semibold mb-2">shadcn/ui</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Accessible component library used for interactive
+                            elements.
+                        </p>
+                        <a
+                            href="https://ui.shadcn.com/"
+                            className="text-blue-600 hover:text-blue-800 underline text-sm"
+                        >
+                            View Components →
+                        </a>
+                    </div>
+                </div>
+
+                <div className="bg-yellow-50 dark:bg-yellow-900/20 p-6 rounded-lg">
+                    <h3 className="font-semibold text-yellow-800 dark:text-yellow-200 mb-2">
+                        Note on Sources
+                    </h3>
+                    <p className="text-yellow-700 dark:text-yellow-300">
+                        This demo was created for educational purposes to
+                        illustrate responsive design and accessibility
+                        principles. While the content draws from established
+                        guidelines and best practices, it&apos;s not intended as
+                        a comprehensive academic resource.
+                    </p>
+                </div>
+
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg">
+                    <h3 className="font-semibold text-purple-800 dark:text-purple-200 mb-2">
+                        Built With
+                    </h3>
+                    <p className="text-purple-700 dark:text-purple-300">
+                        This demo was built using Next.js, TypeScript, Tailwind
+                        CSS, and shadcn/ui components. The animations and
+                        interactions demonstrate responsive design principles in
+                        practice.
                     </p>
                 </div>
             </div>

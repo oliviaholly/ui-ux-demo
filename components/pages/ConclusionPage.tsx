@@ -15,11 +15,11 @@ export default function ConclusionPage() {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6">
-                    <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-lg border border-green-200 dark:border-green-700">
-                        <h3 className="font-bold text-green-800 dark:text-green-200 mb-3">
+                    <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border border-purple-200 dark:border-purple-700">
+                        <h3 className="font-bold text-purple-800 dark:text-purple-200 mb-3">
                             ✓ Key Takeaways
                         </h3>
-                        <ul className="space-y-2 text-green-700 dark:text-green-300">
+                        <ul className="space-y-2 text-purple-700 dark:text-purple-300">
                             <li>• Responsive design should feel invisible</li>
                             <li>
                                 • Accessibility benefits everyone (curb-cut
@@ -48,12 +48,13 @@ export default function ConclusionPage() {
                         The Bigger Picture
                     </h3>
                     <p className="text-orange-700 dark:text-orange-300">
-                        This isn't just about technical implementation – it's
-                        about <strong>social responsibility</strong>. Due to the
-                        abundance of tools at developers' disposal, responsive
-                        UI isn't necessarily a technical challenge – it's a
-                        social one that requires developers to be empathetic and
-                        consciously aware of who they develop applications for.
+                        This isn&apos;t just about technical implementation -
+                        it&apos;s about <strong>social responsibility</strong>.
+                        Due to the abundance of tools at developers&apos;
+                        disposal, responsive UI isn&apos;t necessarily a
+                        technical challenge - it&apos;s a social one that
+                        requires developers to be empathetic and consciously
+                        aware of who they develop applications for.
                     </p>
                 </div>
 
@@ -68,8 +69,8 @@ export default function ConclusionPage() {
                     </p>
                     <div className="bg-white dark:bg-blue-950/50 p-4 rounded border">
                         <p className="font-semibold text-blue-600 dark:text-blue-400 text-center">
-                            "Technology should adapt to users, not the other way
-                            around."
+                            &quot;Technology should adapt to users, not the
+                            other way around.&quot;
                         </p>
                     </div>
                 </div>
