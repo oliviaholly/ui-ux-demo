@@ -20,7 +20,7 @@ export default function WelcomePage() {
                 , and things you may not notice on websites as a user.
             </p>
             <p className="text-lg text-center max-w-md">
-                Begin by using the "Next" button at the bottom!
+                Begin by using the &quot;Next&quot; button at the bottom!
             </p>
             <div className="space-y-1">
                 <p className="text-sm text-center max-w-md text-gray-600 dark:text-gray-400">

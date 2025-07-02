@@ -23,15 +23,11 @@ export default function IntroPage() {
                     </p>
 
                     {/* Evolution Timeline */}
-                    <div className="flex items-center justify-center gap-8 my-6">
+                    <div className="flex items-center justify-center gap-4 my-6">
                         {/* Old Monitor */}
-                        <div className="flex flex-col items-center">
-                            <div className="w-20 h-20 flex items-center justify-center bg-white dark:bg-gray-700 rounded-lg shadow-md">
-                                <OldMonitorIcon className="w-16 h-16" />
-                            </div>
-                            <span className="text-sm mt-2 text-gray-600 dark:text-gray-400">
-                                2000s
-                            </span>
+                        <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
+                            <OldMonitorIcon className="mb-2" />
+                            <span className="text-xs text-center">2000s</span>
                         </div>
 
                         {/* Arrow */}
@@ -40,13 +36,9 @@ export default function IntroPage() {
                         </div>
 
                         {/* Mobile Phone */}
-                        <div className="flex flex-col items-center">
-                            <div className="w-20 h-20 flex items-center justify-center bg-white dark:bg-gray-700 rounded-lg shadow-md">
-                                <MobilePhoneIcon />
-                            </div>
-                            <span className="text-sm mt-2 text-gray-600 dark:text-gray-400">
-                                2010s
-                            </span>
+                        <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
+                            <MobilePhoneIcon className="mb-2" />
+                            <span className="text-xs text-center">2010s</span>
                         </div>
 
                         {/* Arrow */}
@@ -55,13 +47,9 @@ export default function IntroPage() {
                         </div>
 
                         {/* Apple Watch */}
-                        <div className="flex flex-col items-center">
-                            <div className="w-20 h-20 flex items-center justify-center bg-white dark:bg-gray-700 rounded-lg shadow-md">
-                                <AppleWatchIcon />
-                            </div>
-                            <span className="text-sm mt-2 text-gray-600 dark:text-gray-400">
-                                Today
-                            </span>
+                        <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
+                            <AppleWatchIcon className="mb-2" />
+                            <span className="text-xs text-center">Today</span>
                         </div>
                     </div>
                 </div>

@@ -11,6 +11,7 @@ export default function LaptopIcon({ className = "" }: IconProps) {
             width="100"
             height="100"
             viewBox="0,0,256,256"
+            className={className}
         >
             <g
                 fill="none"
@@ -25,7 +26,6 @@ export default function LaptopIcon({ className = "" }: IconProps) {
                 font-family="none"
                 font-weight="none"
                 font-size="none"
-                text-anchor="none"
             >
                 <g transform="scale(5.33333,5.33333)">
                     <path

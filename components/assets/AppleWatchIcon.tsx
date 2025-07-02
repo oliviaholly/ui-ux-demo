@@ -11,6 +11,7 @@ export default function AppleWatchIcon({ className = "" }: IconProps) {
             width="100"
             height="100"
             viewBox="0 0 48 48"
+            className={className}
         >
             <path
                 fill="#37474f"

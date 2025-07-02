@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { pages, totalPages } from "@/components/pages";
+import TableOfContents from "@/components/TableOfContents";
 
 function Navigation({
     onBack,
@@ -15,7 +16,7 @@ function Navigation({
 }) {
     return (
         <footer className="fixed bottom-0 left-0 w-full bg-white/80 dark:bg-black/80 border-t border-gray-200 dark:border-gray-700 z-50">
-            <div className="flex justify-between max-w-2xl mx-auto p-4">
+            <div className="flex justify-between max-w-2xl mx-auto p-4 md:mr-40">
                 {showBack ? (
                     <button
                         className="px-6 py-2 rounded bg-gray-200 text-gray-700 hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
@@ -77,15 +78,27 @@ export default function Home() {
     // Get the current page component
     const CurrentPage = pages[displayStep];
 
+    const handleNavigate = (newStep: number) => {
+        setStep(newStep);
+    };
+
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center pb-24 px-8 pt-8">
-            <div
-                className={`flex flex-col gap-8 items-center w-full max-w-2xl transition-opacity duration-200 ${
-                    isVisible ? "opacity-100" : "opacity-0"
-                }`}
-            >
-                <CurrentPage />
+        <div className="min-h-screen">
+            {/* Table of Contents */}
+            <TableOfContents currentStep={step} onNavigate={handleNavigate} />
+
+            {/* Main Content */}
+            <div className="md:ml-80 min-h-screen flex flex-col items-center justify-center pb-24 px-8 pt-16 md:pt-8">
+                <div
+                    className={`flex flex-col gap-8 items-center w-full max-w-2xl transition-opacity duration-200 ${
+                        isVisible ? "opacity-100" : "opacity-0"
+                    }`}
+                >
+                    <CurrentPage />
+                </div>
             </div>
+
+            {/* Navigation */}
             <Navigation
                 onBack={() => setStep(step - 1)}
                 onNext={() => setStep(step + 1)}

@@ -11,6 +11,7 @@ export default function ATMIcon({ className = "" }: IconProps) {
             width="100"
             height="100"
             viewBox="0 0 48 48"
+            className={className}
         >
             <path
                 fill="#cfd8dc"
