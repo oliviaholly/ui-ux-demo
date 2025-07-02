@@ -46,9 +46,18 @@ export default function Home() {
     const [step, setStep] = useState(0);
     const [displayStep, setDisplayStep] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
+    const [scrollPositions, setScrollPositions] = useState<
+        Record<number, number>
+    >({});
 
     useEffect(() => {
         if (step !== displayStep) {
+            // Save current scroll position before changing pages
+            setScrollPositions((prev) => ({
+                ...prev,
+                [displayStep]: window.scrollY,
+            }));
+
             setIsVisible(false);
             const timeout = setTimeout(() => {
                 setDisplayStep(step);
@@ -58,10 +67,17 @@ export default function Home() {
         }
     }, [step, displayStep]);
 
-    // Scroll to top when page changes
+    // Restore scroll position when page changes, or scroll to top for unvisited pages
     useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [displayStep]);
+        const savedPosition = scrollPositions[displayStep];
+        if (savedPosition !== undefined) {
+            // Restore saved scroll position
+            window.scrollTo(0, savedPosition);
+        } else {
+            // Default to top for unvisited pages
+            window.scrollTo(0, 0);
+        }
+    }, [displayStep, scrollPositions]);
 
     // Prevent accidental navigation away from the demo
     // useEffect(() => {
