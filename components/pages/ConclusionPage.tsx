@@ -14,8 +14,8 @@ export default function ConclusionPage() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-6">
-                    <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border border-purple-200 dark:border-purple-700">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="bg-purple-50 dark:bg-purple-900/20 p-4 sm:p-6 rounded-lg border border-purple-200 dark:border-purple-700">
                         <h3 className="font-bold text-purple-800 dark:text-purple-200 mb-3">
                             ✓ Key Takeaways
                         </h3>
@@ -30,7 +30,7 @@ export default function ConclusionPage() {
                         </ul>
                     </div>
 
-                    <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border border-purple-200 dark:border-purple-700">
+                    <div className="bg-purple-50 dark:bg-purple-900/20 p-4 sm:p-6 rounded-lg border border-purple-200 dark:border-purple-700">
                         <h3 className="font-bold text-purple-800 dark:text-purple-200 mb-3">
                             🎯 For Developers
                         </h3>

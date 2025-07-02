@@ -13,11 +13,11 @@ export default function AccessibilityPage() {
                     or voice commands rather than mice.
                 </p>
 
-                <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg">
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-4 sm:p-6 rounded-lg">
                     <h3 className="font-bold text-purple-800 dark:text-purple-200 mb-4">
                         WCAG Principles (W3C Standards):
                     </h3>
-                    <div className="grid md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="space-y-2">
                             <div className="font-semibold text-purple-700 dark:text-purple-300">
                                 1. Perceivable

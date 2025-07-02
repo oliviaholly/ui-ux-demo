@@ -22,16 +22,16 @@ export default function ResponsiveUIPage() {
                     <h3 className="font-semibold text-center mb-4">
                         Responsive UI infers your device type
                     </h3>
-                    <div className="flex justify-center items-center gap-8">
+                    <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8">
                         {/* Mobile Phone */}
                         <div
                             className={`flex flex-col items-center p-4 rounded-lg transition-all duration-300 md:opacity-50 md:scale-90 ${"opacity-100 scale-100 bg-purple-100 dark:bg-purple-900/30 border-2 border-purple-500 md:bg-transparent md:border-transparent"}`}
                         >
-                            <div className="mb-2 w-[100px] h-[100px] flex items-center justify-center">
+                            <div className="mb-2 w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] flex items-center justify-center">
                                 <MobilePhoneIcon className="w-full h-full" />
                             </div>
                             <span className="text-sm font-medium">Mobile</span>
-                            <span className="text-xs text-purple-600 dark:text-purple-400 md:hidden">
+                            <span className="text-xs text-purple-600 dark:text-purple-400 md:hidden text-center">
                                 (You are here, I think!)
                             </span>
                         </div>
@@ -40,11 +40,11 @@ export default function ResponsiveUIPage() {
                         <div
                             className={`flex flex-col items-center p-4 rounded-lg transition-all duration-300 opacity-50 scale-90 md:opacity-100 md:scale-100 md:bg-purple-100 md:dark:bg-purple-900/30 md:border-2 md:border-purple-500`}
                         >
-                            <div className="mb-2 w-[100px] h-[100px] flex items-center justify-center">
+                            <div className="mb-2 w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] flex items-center justify-center">
                                 <LaptopIcon className="w-full h-full" />
                             </div>
                             <span className="text-sm font-medium">Desktop</span>
-                            <span className="text-xs text-purple-600 dark:text-purple-400 hidden md:block">
+                            <span className="text-xs text-purple-600 dark:text-purple-400 hidden md:block text-center">
                                 (You are here, I think!)
                             </span>
                         </div>

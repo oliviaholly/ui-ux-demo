@@ -23,7 +23,7 @@ export default function IntroPage() {
                     </p>
 
                     {/* Evolution Timeline */}
-                    <div className="flex items-center justify-center gap-4 my-6">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 my-6">
                         {/* Old Monitor */}
                         <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
                             <OldMonitorIcon className="mb-2" />
@@ -32,6 +32,10 @@ export default function IntroPage() {
 
                         {/* Arrow */}
                         <div className="hidden sm:block">
+                            <ArrowIcon />
+                        </div>
+                        {/* Vertical Arrow for mobile */}
+                        <div className="block sm:hidden rotate-90">
                             <ArrowIcon />
                         </div>
 
@@ -43,6 +47,10 @@ export default function IntroPage() {
 
                         {/* Arrow */}
                         <div className="hidden sm:block">
+                            <ArrowIcon />
+                        </div>
+                        {/* Vertical Arrow for mobile */}
+                        <div className="block sm:hidden rotate-90">
                             <ArrowIcon />
                         </div>
 
@@ -65,15 +73,15 @@ export default function IntroPage() {
                     </p>
 
                     {/* Interface Examples Grid */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mt-6">
                         {/* ATM */}
-                        <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
+                        <div className="flex flex-col items-center p-2 sm:p-3 bg-white dark:bg-gray-700 rounded-lg">
                             <ATMIcon className="mb-2" />
                             <span className="text-xs text-center">ATM</span>
                         </div>
 
                         {/* Car Dashboard */}
-                        <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
+                        <div className="flex flex-col items-center p-2 sm:p-3 bg-white dark:bg-gray-700 rounded-lg">
                             <CarDashboardIcon className="mb-2" />
                             <span className="text-xs text-center">
                                 Dashboard
@@ -81,13 +89,13 @@ export default function IntroPage() {
                         </div>
 
                         {/* Voice Assistant */}
-                        <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
+                        <div className="flex flex-col items-center p-2 sm:p-3 bg-white dark:bg-gray-700 rounded-lg">
                             <VoiceAssistantIcon className="mb-2" />
                             <span className="text-xs text-center">Voice</span>
                         </div>
 
                         {/* Smart TV */}
-                        <div className="flex flex-col items-center p-3 bg-white dark:bg-gray-700 rounded-lg">
+                        <div className="flex flex-col items-center p-2 sm:p-3 bg-white dark:bg-gray-700 rounded-lg">
                             <SmartTVIcon className="mb-2" />
                             <span className="text-xs text-center">
                                 Smart TV
