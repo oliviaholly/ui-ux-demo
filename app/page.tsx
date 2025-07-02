@@ -58,6 +58,11 @@ export default function Home() {
         }
     }, [step, displayStep]);
 
+    // Scroll to top when page changes
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [displayStep]);
+
     // Prevent accidental navigation away from the demo
     // useEffect(() => {
     //     const handleBeforeUnload = (e: BeforeUnloadEvent) => {

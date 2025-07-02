@@ -24,11 +24,11 @@ export default function HCIPage() {
                     </p>
                 </div>
 
-                <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-lg">
+                <div className="bg-green-50 dark:bg-green-900/20 p-4 sm:p-6 rounded-lg">
                     <h3 className="font-semibold text-green-800 dark:text-green-200 mb-4">
                         HCI in Daily Life
                     </h3>
-                    <div className="grid md:grid-cols-2 gap-4 text-green-700 dark:text-green-300">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-green-700 dark:text-green-300">
                         <div>
                             <h4 className="font-semibold mb-2">
                                 Desktop Innovations:

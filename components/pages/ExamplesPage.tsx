@@ -30,30 +30,32 @@ export default function ExamplesPage() {
                 </p>
 
                 {/* Interactive Responsive Example */}
-                <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg border">
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 sm:p-6 rounded-lg border">
                     <h3 className="font-semibold mb-4">
                         Try This: Responsive Navigation
                     </h3>
                     <div className="flex items-center justify-between bg-white dark:bg-gray-900 p-4 rounded border">
-                        <div className="font-semibold">My Website</div>
+                        <div className="font-semibold text-sm sm:text-base">
+                            My Website
+                        </div>
 
                         {/* Desktop Navigation - hidden on small screens */}
                         <nav className="hidden md:flex space-x-4">
                             <a
                                 href="#"
-                                className="text-blue-600 hover:text-blue-800"
+                                className="text-blue-600 hover:text-blue-800 text-sm"
                             >
                                 Home
                             </a>
                             <a
                                 href="#"
-                                className="text-blue-600 hover:text-blue-800"
+                                className="text-blue-600 hover:text-blue-800 text-sm"
                             >
                                 About
                             </a>
                             <a
                                 href="#"
-                                className="text-blue-600 hover:text-blue-800"
+                                className="text-blue-600 hover:text-blue-800 text-sm"
                             >
                                 Contact
                             </a>
@@ -62,16 +64,16 @@ export default function ExamplesPage() {
                         {/* Mobile Hamburger - shown on small screens */}
                         <button
                             onClick={() => setShowSidebar(!showSidebar)}
-                            className="md:hidden p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                            className="md:hidden p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded"
                             aria-label="Toggle navigation menu"
                         >
-                            <div className="w-6 h-0.5 bg-gray-600 dark:bg-gray-300 mb-1"></div>
-                            <div className="w-6 h-0.5 bg-gray-600 dark:bg-gray-300 mb-1"></div>
-                            <div className="w-6 h-0.5 bg-gray-600 dark:bg-gray-300"></div>
+                            <div className="w-5 h-0.5 bg-gray-600 dark:bg-gray-300 mb-1"></div>
+                            <div className="w-5 h-0.5 bg-gray-600 dark:bg-gray-300 mb-1"></div>
+                            <div className="w-5 h-0.5 bg-gray-600 dark:bg-gray-300"></div>
                         </button>
                     </div>
 
-                    {/* Mobile Menu */}
+                    {/* Mobile Sidebar */}
                     {showSidebar && (
                         <div className="md:hidden mt-2 bg-white dark:bg-gray-900 border rounded p-4">
                             <nav className="flex flex-col space-y-2">

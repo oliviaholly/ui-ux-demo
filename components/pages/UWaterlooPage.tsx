@@ -30,11 +30,11 @@ export default function UWaterlooPage() {
                     </p>
                 </div>
 
-                <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 sm:p-6 rounded-lg">
                     <h3 className="font-semibold mb-4">
                         University Tools & Resources:
                     </h3>
-                    <div className="grid md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="space-y-2">
                             <div className="font-semibold text-purple-700 dark:text-purple-300">
                                 Student Success Services
